@@ -19,6 +19,17 @@ Walks through all 6 pre-publish phases defined in `content-research-writer.md`, 
 
 ---
 
+## HubSpot Context
+
+Before drafting, check `data/hubspot/context.md` for relevant CRM data:
+- Is the client (if mentioned) in the Closed Won list? → Use specific event details (activity name, attendee count, city)
+- Is a similar company in the active pipeline? → The post can address their objections or aspirations without naming them
+- Are there recent Closed Won events that haven't been turned into posts yet? → Content goldmine
+
+Never include in the post: deal amounts, pipeline stages, internal notes, or any data marked confidential.
+
+---
+
 ## Workflow
 
 ### Phase 1 — Research Brief

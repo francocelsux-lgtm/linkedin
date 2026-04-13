@@ -28,6 +28,23 @@ if [ -d "$CLAUDE_PROJECT_DIR/memory" ]; then
   echo "Monthly logs: $(find "$CLAUDE_PROJECT_DIR/memory/monthly-logs" -name '*.md' 2>/dev/null | wc -l)"
 fi
 
+
+# Show HubSpot context if available
+HUBSPOT_CONTEXT="$CLAUDE_PROJECT_DIR/data/hubspot/context.md"
+if [ -f "$HUBSPOT_CONTEXT" ]; then
+  echo ""
+  echo "--- HubSpot CRM ---"
+  # Show first meaningful line (skip header and blank lines)
+  grep -E "^##" "$HUBSPOT_CONTEXT" | head -4 | sed 's/^## /  /'
+  # Check if synced or placeholder
+  if grep -q "Sin sincronizar" "$HUBSPOT_CONTEXT" 2>/dev/null; then
+    echo "  ⚠ Sin sincronizar — correr: python scripts/hubspot_sync.py"
+  else
+    SYNC_DATE=$(grep "_Última sincronización" "$HUBSPOT_CONTEXT" | sed "s/.*: //" | sed "s/ (.*//" || echo "desconocida")
+    echo "  Última sync: $SYNC_DATE"
+  fi
+fi
+
 echo ""
 echo "Available slash commands:"
 ls "$CLAUDE_PROJECT_DIR/.claude/commands/"*.md 2>/dev/null | xargs -I{} basename {} .md | sed 's/^/  \//' || echo "  (none yet)"

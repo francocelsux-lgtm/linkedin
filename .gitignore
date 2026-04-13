@@ -1,0 +1,24 @@
+# Secretos y tokens — nunca subir al repo
+.env
+.env.local
+*.env
+
+# HubSpot — solo context.md se commitea, los JSON crudos no (privacidad)
+data/hubspot/deals.json
+data/hubspot/companies.json
+data/hubspot/contacts.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
