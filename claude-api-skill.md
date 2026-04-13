@@ -8,16 +8,44 @@ This skill is powered by the **claude-api** built-in skill. It applies whenever 
 
 ---
 
+## Architecture: Few-Shot Generation
+
+The core generation pattern is adapted from the [Saurav0129/Linkedin-Post-Generator](https://github.com/Saurav0129/Linkedin-Post-Generator) approach:
+
+**Original approach:** Feed 2 example posts from third-party influencers (Ankur Warikoo, Kunal Shah, Justin Welsh) as few-shot context before generating.
+
+**Our adaptation:** Feed 2 of Luis Durruty's own best-performing posts as examples — same mechanism, but using Celsux's actual voice and style as the signal instead of someone else's.
+
+```
+data/raw_posts.json          ← Luis's published posts (manually collected)
+        ↓
+scripts/preprocess_posts.py  ← LLM extracts tags, format, hook_pattern, line_count
+        ↓
+data/preprocessed.json       ← Enriched dataset with performance tiers (A/B/C)
+        ↓
+scripts/few_shots.py         ← FewShotPosts: filter by pillar × length × language × tier
+        ↓
+scripts/post_generator.py    ← Build prompt with 2 A-tier examples → Claude Opus 4.6
+        ↓
+New post                     ← Grounded in what has actually worked before
+```
+
+This creates a **self-improving loop**: every new post that performs well gets added to `raw_posts.json`, preprocessed, and becomes available as a future few-shot example.
+
+---
+
 ## When to Use the Claude API
 
-| Use Case | Interactive (chat) | Claude API |
+| Use Case | Interactive (chat) | Claude API (scripts/) |
 |---|---|---|
 | Drafting 1 post | ✅ Use `/draft-post` | — |
-| Drafting a week's worth of posts at once | — | ✅ Batch mode |
+| Drafting a week's worth of posts at once | — | ✅ `batch_draft()` |
 | Generating 5 hooks for 1 topic | ✅ Use `/generate-hooks` | — |
 | Generating hooks for 20 topics from backlog | — | ✅ Batch mode |
 | Running weekly review | ✅ Use `/weekly-review` | — |
 | Analyzing 3 months of post data for patterns | — | ✅ Analysis mode |
+| Preprocessing new raw posts | — | ✅ `preprocess_posts.py` |
+| Inspecting few-shot dataset stats | — | ✅ `few_shots.py` |
 | Real-time trend research | ✅ Chat | — |
 | Summarizing a competitor's last 30 posts | — | ✅ Summarization |
 
