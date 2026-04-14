@@ -11,13 +11,15 @@ L'Oréal, IBM, Unilever, Volkswagen, BBVA, Adidas, PepsiCo, entre otras.
 En el modelo co-selling (consultoras RRHH): ZIGLA.
 
 Usar referencias por afinidad de industria:
-- **Tecnología**: IBM
-- **Consumo masivo / retail**: L'Oréal, Unilever, PepsiCo
-- **Moda / lifestyle / retail de marca**: Adidas, L'Oréal
-- **Automotriz / manufactura**: Volkswagen
+- **Tecnología**: IBM, Zebra, Novared, HITEC, SAP, Claro, Siemens
+- **Consumo masivo / retail**: L'Oréal, Unilever, PepsiCo, Kimberley Clark, Mc Donald's
+- **Moda / lifestyle / retail de marca**: Adidas, L'Oréal, Natura, AVON
+- **Automotriz / manufactura**: Volkswagen, Stellantis, Honda, Toyota
 - **Banca / finanzas / seguros**: BBVA
-- **Consultoría / servicios**: IBM o BBVA
 - **Consultoras RRHH (co-selling)**: ZIGLA
+- **Petroleras**: Pampa Energy, Raízen
+- **Pharma**: DisproFarma
+- **Agrícola**:Advanta
 
 ---
 
