@@ -30,6 +30,23 @@ Leer los archivos `voz-celsux.md` y `servicios-celsux.md` antes de escribir.
 
 ---
 
+## PASO 0 — EVALUACIÓN DE PODER DE DECISIÓN (OBLIGATORIO ANTES DE ESCRIBIR)
+
+Antes de elegir el tipo de mensaje, responder esta pregunta:
+
+**¿El cargo del prospecto implica decisión o influencia directa sobre eventos corporativos, Team Building o presupuesto de cultura/bienestar?**
+
+| Tiene poder de decisión | No tiene poder de decisión |
+|---|---|
+| RRHH, People, Talento | Analista, CS, ventas, técnico |
+| Cultura, Bienestar, Engagement | Operaciones, finanzas, desarrollo |
+| Gerente, Director, CEO | Cualquier perfil sin equipo a cargo |
+
+- **SÍ tiene poder** → usar Variantes A–E según perfil
+- **NO tiene poder** → usar **Variante F** (presentación + dolor + derivación)
+
+---
+
 ## TAREA PREVIA: INVESTIGACIÓN DEL PROSPECTO
 
 Antes de escribir el mensaje, investigá activamente en LinkedIn la información
@@ -174,6 +191,40 @@ Este mensaje es distinto a todos los demás. No es venta, es alianza.
 > esa necesidad.
 > Un saludo,
 > Luis
+
+### Variante F — Sin poder de decisión (analista, CS, técnico, operaciones)
+
+Este mensaje NO intenta vender. Intenta llegar a la persona correcta dentro de la empresa.
+
+**Lógica:** El prospecto probablemente conoce a quien maneja RRHH, People o Cultura.
+Si el dolor que describís resuena, va a querer conectarte.
+
+**Estructura:**
+1. Saludo por nombre
+2. Presentación breve de Luis y Celsux (1 oración)
+3. Exposición del dolor real que tiene la empresa (eje central del mensaje)
+4. Pregunta de derivación natural: "¿hay alguien en RRHH o People con quien tenga sentido hablar?"
+5. Cierre sin presión
+
+**Reglas específicas:**
+- No intentar vender al prospecto directamente
+- El dolor debe sonar verdadero para ESA empresa/industria, no genérico
+- La pregunta de derivación tiene que sentirse como un favor, no como una escalada comercial
+- Tono más informal que otros mensajes — esta persona no es el objetivo final
+
+**Ejemplo para Lucas Larraz (Customer Success Analyst, Widergy):**
+> Lucas, hola.
+>
+> Soy Luis, de Celsux, productora de eventos corporativos. Trabajamos con empresas de tecnología como IBM y SAP armando Team Buildings y eventos internos para sus equipos.
+>
+> Lo que veo seguido en empresas tech es que el foco está puesto en el cliente externo y el equipo interno queda relegado. Se nota en el clima, en la rotación, en cómo arranca el año.
+>
+> No sé si es tu área, pero ¿hay alguien en el equipo de RRHH o People en Widergy con quien tenga sentido hablar sobre esto?
+>
+> Gracias igual,
+> Luis
+
+---
 
 ### Variante E — Marketing / Brand / Comunicación (empresa en expansión o con foco de marca)
 
