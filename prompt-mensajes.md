@@ -226,6 +226,45 @@ Si el dolor que describís resuena, va a querer conectarte.
 
 ---
 
+### Variante G — Entrada a licitaciones / ser proveedor (empresa grande con eventos regulares)
+
+Este mensaje NO es para vender un servicio específico. Es para entrar al radar de una empresa que ya hace eventos y probablemente tiene proveedores, pero no conoce a Celsux.
+
+**Cuándo usar esta variante:**
+- Empresa grande (consumo masivo, pharma, energía, banca, industrial)
+- El prospecto es HR Director, Gerente de RRHH, o similar con presupuesto de eventos
+- La empresa probablemente ya tiene un portfolio de proveedores establecido
+- El objetivo real es: conseguir el mail, quedar en la lista de proveedores, o ser convocados a la próxima licitación
+
+**Lógica:** No competir por atención con un servicio puntual. Posicionarse como productora integral que puede acompañar cualquier tipo de evento, y pedir ser considerados.
+
+**Estructura:**
+1. Saludo por nombre
+2. Presentación como productora integral (no solo TB) con referencia de clientes del mismo sector
+3. Observación concreta del momento de la empresa (expansión, aniversario, cambio, inversión)
+4. Pain: depender de siempre los mismos proveedores limita lo que se puede hacer
+5. CTA: pedir el mail o contacto de compras/eventos, o quedar en su radar para la próxima licitación
+
+**Reglas específicas:**
+- No proponer un servicio concreto — mostrar amplitud
+- El CTA apunta a conseguir contacto o ser agregados a la lista de proveedores
+- Tono de par a par: "queremos estar en su radar", no "queremos venderles"
+- Mencionar 2-3 clientes del mismo sector para credibilidad inmediata
+
+**Ejemplo para Pablo Duranti (HR Director, Cabrales SA):**
+> Pablo, hola.
+>
+> Soy Luis, de Celsux, productora de eventos corporativos. Trabajamos con empresas de consumo masivo como Unilever, PepsiCo y Kimberly Clark en todo tipo de eventos: convenciones, team buildings, family days, lanzamientos internos.
+>
+> Vi que Cabrales está en un momento de movimiento — el acuerdo con Tucumán, la apuesta por nuevos mercados. Ese tipo de crecimiento suele venir con más eventos, más necesidad de producción, y a veces los mismos proveedores de siempre se quedan cortos.
+>
+> Me gustaría que nos tuvieran en el radar para cuando tengan algo. ¿Me pasás un mail para mandarte nuestro portfolio o me decís con quién hablar en el equipo?
+>
+> Un saludo,
+> Luis
+
+---
+
 ### Variante E — Marketing / Brand / Comunicación (empresa en expansión o con foco de marca)
 
 No es perfil de RRHH. Es alguien que construye marca desde adentro.
