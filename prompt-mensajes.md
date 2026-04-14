@@ -16,6 +16,16 @@ de una empresa.
 
 ---
 
+## LECTURA OBLIGATORIA ANTES DE ESCRIBIR SOBRE TEAM BUILDING
+
+Leer `metodologia-teambuilding.md` para entender cómo Celsux concibe el TB:
+- No es entretenimiento ni competencia — es una intervención con diagnóstico y reporte
+- Hay 80 dinámicas; cada una se elige según el problema específico del equipo
+- El diferencial real: reporte privado al contratante, sin cierre grupal
+- Objeción más frecuente: "no hay presupuesto" → responder con diagnóstico gratuito
+
+---
+
 ## CONTEXTO DE CELSUX
 
 Celsux es una productora all-in-one con 23 años de trayectoria. Producen eventos

@@ -53,6 +53,9 @@ El servicio de mayor demanda. Tres niveles según presupuesto y ambición:
 - Mencionan integración, clima, trabajo en equipo, incorporación de nuevos
 - Tienen Team Building pendiente o lo hacen anualmente
 
+**Ver metodología completa:** `metodologia-teambuilding.md`
+— incluye las 80 dinámicas, el sistema de diagnóstico previo, el reporte post-actividad y la estrategia de manejo de objeciones.
+
 ---
 
 ### 2. Convenciones
