@@ -106,3 +106,37 @@ Este repo es el sistema de contenido de LinkedIn para **Luis Durruty, CEO de Cel
 2. Consultar `data/hubspot/context.md` para contexto de clientes
 3. Revisar `memory/hook-library.md` para patrones que han funcionado
 4. Seguir el workflow de `content-research-writer.md` sin saltear fases
+
+---
+
+## Sistema Outbound Multi-Repo
+
+Este repo forma parte de un workspace de dos repositorios que trabajan juntos:
+
+```
+~/celsux/
+├── CLAUDE.md                ← workspace-level (copiar desde cold-b2b-emails/workspace/CLAUDE.md)
+├── linkedin/                ← ESTE REPO — construye autoridad
+└── cold-b2b-emails/         ← convierte autoridad en reuniones
+```
+
+**Cómo se conectan:**
+
+| Este repo (LinkedIn) | cold-b2b-emails |
+|----------------------|-----------------|
+| Construye autoridad y marca | Convierte esa autoridad en reuniones |
+| Posts virales → señales de tema | Esos temas → secuencias de email |
+| `celsux-voice.md` → fuente de verdad de voz | Heredada por cold emails |
+| `profile-analysis.md` → ICP | Mismo ICP, distinto canal |
+| `data/hubspot/context.md` → CRM | Compartido con cold emails |
+
+**Regla de dependencia:** Los cambios de voz o ICP van primero en este repo, luego se propagan a `cold-b2b-emails`.
+
+**Coordinación de ramas:** Al trabajar en una feature cross-repo, usar el mismo nombre de rama en ambos:
+```bash
+git -C linkedin checkout -b feature/nombre
+git -C cold-b2b-emails checkout -b feature/nombre
+
+# Ver estado de todos los repos de un vistazo
+bash cold-b2b-emails/workspace/status.sh
+```
