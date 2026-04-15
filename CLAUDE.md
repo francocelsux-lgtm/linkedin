@@ -8,6 +8,9 @@ Este repo es el sistema centralizado de contenido y outreach B2B de Celsux 360, 
 2. Leé `company/voice.md`
 3. Leé el template relevante en `templates/`
 
+## Comportamiento de Claude en este proyecto
+Ver `tasks/claude-behavior.md` — plan mode, subagents, self-improvement loop, task management.
+
 ## Reglas irrompibles
 - Siempre escribir en castellano rioplatense ("vos", trato directo, calidez)
 - Nunca usar construcciones de IA: "No se trata de X, sino de Y", "Más allá de X", "Lejos de ser X"
