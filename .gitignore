@@ -19,6 +19,12 @@ env/
 dist/
 build/
 
+# Outputs generados — no versionar
+outputs/
+
+# Git worktrees temporales
+.worktrees/
+
 # Sistema operativo
 .DS_Store
 Thumbs.db
